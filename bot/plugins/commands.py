@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'join update channel', url="https://t.me/joker_updates"
                                 )
                         ]
                     ]
@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('join our channel', url='https://t.me/joker_updates'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/frankboyop/JOKER 2.0BOT')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support group 🛠', url='https://t.me/jokerassociation')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
